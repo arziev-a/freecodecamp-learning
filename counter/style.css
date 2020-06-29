@@ -1,0 +1,48 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(img/code.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  
+}
+
+.counter-box {
+  flex: 0 0 46%;
+  text-align: center; 
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.8;
+  padding: 1rem;
+  box-shadow: black 10px 10px 20px 20px;
+
+}
+
+.btn {
+    background-color: #76F0B3;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 1.5rem;
+    height: 40px;
+    width: 150px;
+    font-family:fantasy;
+   cursor: pointer;
+}
+
+.btn:hover{
+background-color: #4bc47f;
+
+}
+
+
+
+.cont {
+    color: black;
+}
+
+.counter {
+    font-size: 6rem;
+}
