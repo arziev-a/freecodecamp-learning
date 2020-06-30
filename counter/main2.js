@@ -17,3 +17,5 @@ function decrementCounter() {
     count--;
     counter.innerHTML = count;
 }
+
+/* This is not working */
